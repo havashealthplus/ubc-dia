@@ -99,7 +99,7 @@ hr {
 
 /* cases */
 .case {
-  padding: 3rem 0;
+  padding: 0 0 3rem;
 }
 
 #biotech, #manu {
@@ -155,7 +155,7 @@ hr {
 
 @media screen and (min-width: 768px) {
 	.case {
-		padding: 7rem 0;
+		padding: 0 0 7rem;
 	}
   .case-intro h1 {
   	font-size: 4rem;
@@ -193,7 +193,9 @@ hr {
 }
 
 @media screen and (min-width: 768px) {
-
+  .contact h3, .contact h4, .mail {
+	  font-size: 2rem;
+	}
 }
 
 .mail {
