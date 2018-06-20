@@ -54,13 +54,13 @@ hr {
 	display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 80vh;
 }
 
 .vert {
 	position: absolute;
 	height: 20vh;
-	top: 70vh;
+	top: 60vh;
 	left: 50%;
   margin-left: -1px;
 	border-left: 2px solid #000;
