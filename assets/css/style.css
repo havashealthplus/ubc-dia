@@ -543,7 +543,7 @@ ul {
   opacity: 1;
 }
 
-.mosaic-arrow {
+/*.mosaic-arrow {
   animation: shake 2s infinite;
 }
 
@@ -563,11 +563,21 @@ ul {
   40%, 60% {
     transform: translate3d(4px, 0, 0);
   }
-}
+}*/
 
 /* team */
 #team {
   margin: 10rem 0 4.5rem;
+}
+
+#team hr {
+  border-bottom: 2px solid #1d3766;;
+}
+
+#team h2 {
+  font-size: 2.5rem;
+  font-weight: 200; 
+  color: #1d3766;
 }
 
 .profile {
@@ -608,6 +618,9 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
+  #team h2 {
+    font-size: 4rem;
+  }
   .bio {
     font-size: 1.8rem;
   }
