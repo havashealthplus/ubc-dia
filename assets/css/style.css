@@ -598,7 +598,19 @@ footer span:nth-of-type(1) {
   opacity: .6;
 }
 
+/* privacy */
+.privacy, .terms {
+  padding: 7.5rem 0;
+  font-size: 1.8rem;
+}
 
+.privacy h1, .terms h1 {
+  font-size: 2.5rem;
+}
 
-
+@media screen and (min-width: 768px) {
+  .privacy h1, .terms h1 {
+    font-size: 4rem;
+  }
+}
 
