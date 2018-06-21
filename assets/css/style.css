@@ -286,36 +286,6 @@ hr {
 	font-weight: 200;	
 }
 
-
-/* services */
-.service-list {
-	display: block;
-  list-style-type: none;
-  margin: 0;
-  padding-left: 0;
-}
-
-.service-list li {
-  font-size: 1.8rem;
-	line-height: 3rem;
-  font-weight: 200;
-  opacity: .7;
-}
-
-@media screen and (min-width: 768px) {
-	.case {
-		padding: 0 0 7rem;
-	}
-  .case-intro h1 {
-  	font-size: 4rem;
-  }
-  .case-desc p, .service-list li {
-  	font-size: 2rem;
-  	line-height: 3.3rem;
-  }
-}
-
-
 /* break */
 #break img {
 	width: 15rem;
@@ -445,6 +415,28 @@ ul {
   max-width: 20rem;
 }
 
+.mosaic-arrow {
+  animation: shake 2s infinite;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
 .button, .button:visited {
   display: block;
   max-width: 17.5rem;
@@ -465,11 +457,6 @@ ul {
   color: #ffffff;
   opacity: 1;
 }
-
-@media screen and (min-width: 768px) {
-
-}
-
 
 /* team */
 #team {
