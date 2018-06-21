@@ -11,6 +11,11 @@ body {
   background: #ffffff;
 }
 
+section, div {
+  outline: none;
+  clear: both;
+}
+
 h1, h2, h3,
 h4, h5, h6,
 p, span, a {
@@ -242,6 +247,10 @@ hr {
   padding: 0 0 3rem;
 }
 
+#biotech {
+  margin-top: 1rem;
+}
+
 #biotech, #manu {
 	color: #fff;
 }
@@ -338,13 +347,103 @@ hr {
 	}
 }
 
-.mail {
+.mail, .email {
   border-bottom: 1px solid #fff;
 }
 
+/* team */
+#team {
+  margin: 10rem 0 4.5rem;
+}
 
+.profile {
+  z-index: 0;
+  margin-bottom: 7.5rem;
+  background: #1d3766;
+}
 
+.profile:after {
+  position: absolute;
+  background: inherit;
+  content: '';
+  display: block;
+  height: 30px;
+  margin-top: -30px;
+  right:16px;
+  left: 15px;
+  -webkit-transform: skewY(-2.5deg);
+     -moz-transform: skewY(-2.5deg);
+          transform: skewY(-2.5deg);
+  transform-origin: 100%; 
+}
 
+.bio {
+  z-index: 1;
+  margin-top: -1rem;
+  padding: 3.5rem 1.5rem;
+  font-size: 1.6rem;
+  background: #1d3766;
+  color: #ffffff;
+}
+
+.name {
+  display: block;
+  padding-bottom: 1rem;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 700;
+}
+
+.title {
+  display: block;
+  padding-top: 1rem;
+}
+
+.email {
+  display: inline-block;
+  padding-top: 1rem;
+}
+
+.bio a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* footer copyright */
+footer {
+  padding: 3.5rem 0 5rem;
+  border-top: 1px solid rgba(0,0,0,.15);
+}
+
+footer span {
+  display: block;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+footer span:nth-of-type(1) {
+  margin: 4rem 0 3rem;
+  opacity: .5;
+}
+
+.footer-link {
+  display: inline;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  color: #1d3766;
+}
+
+#copyright {
+  padding: 2.5rem 0;
+  background: #1d3766;
+}
+
+.copyright-text {
+  display: block;
+  font-size: 1.3rem;
+  color: #fff;
+  opacity: .6;
+}
 
 
 

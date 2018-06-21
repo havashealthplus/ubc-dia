@@ -24,5 +24,11 @@ $(window).on("scroll touchmove", function() {
 
   };
 
+  if ($(document).scrollTop() > $("#team").position().top) {
+
+    $('body').css('background', $("#team").attr("data-color"))
+
+  };
+
 
 });
