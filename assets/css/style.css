@@ -328,21 +328,57 @@ hr {
 }
 
 /* contact */
-.contact h3, .contact h4, .mail {
+.contact {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.contact-img {
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1rem;
+  border-radius: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contact-img#lisa {
+  background-image: url(../images/lisa_monette.jpg);
+}
+
+.contact-img#juan {
+  background-image: url(../images/juan_torres.jpg);
+}
+
+.contact-img#cara {
+  background-image: url(../images/cara_reap.jpg);
+}
+
+.contact-img#haley {
+  background-image: url(../images/haley_kaplowitz.jpg);
+}
+
+.contact-info {
+  width: calc(100% - 5rem - 1rem);
+}
+
+.contact-info h3, .contact-info h4, .mail {
   font-size: 1.8rem;
 	font-weight: 200;
 }
 
-.contact h3 {
+.contact-info h3 {
+  margin-top: 0;
 	margin-bottom: .6rem;
 }
 
-.contact h4 {
+.contact-info h4 {
 	margin: 0 0 2rem;
 }
 
 @media screen and (min-width: 768px) {
-  .contact h3, .contact h4, .mail {
+  .contact-info h3, .contact-info h4, .mail {
 	  font-size: 2rem;
 	}
 }
