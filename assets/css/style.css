@@ -287,17 +287,17 @@ hr {
 }
 
 /* case services */
-.service-list {
+.case-service-list {
 	display: block;
   list-style-type: none;
   margin: 0;
   padding-left: 0;
 }
 
-.service-list li {
+.case-service-list li {
   font-size: 1.8rem;
 	line-height: 3rem;
-  font-weight: 200;
+  font-weight: 200 !important;
   opacity: .7;
 }
 
@@ -308,7 +308,7 @@ hr {
   .case-intro h1 {
   	font-size: 4rem;
   }
-  .case-desc p, .service-list li {
+  .case-desc p, .case-service-list li {
   	font-size: 2rem;
   	line-height: 3.3rem;
   }
