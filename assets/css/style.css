@@ -235,110 +235,69 @@ hr {
   margin: 0 0 5rem;
 }
 
-.pillars {
-  display: block;
-  height: 30rem;
-  width: 30rem;
-  top: 20rem;
-  margin-top: 10rem;
-  margin-right: auto;
-  margin-left: auto;
-  border-radius: 50%;
-  background: #c62030;
-  color: #ffffff;
-}
-
-.pillars-inner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 30rem;
-}
-
-.pillars h2 {
+.info h2 {
   font-size: 2.5rem;
   text-align: center;
 }
 
 .pillar {
-  position: absolute;
-  display: block;
-  height: 15rem;
-  width: 15rem;
-  padding: .5rem;
-  border-radius: 50%;
-  background: #1d3766;
-  color: #ffffff;
+  margin-bottom: 5rem;
+  background: #eeeeee;
+  background: url('../images/pillar-bg.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #1d3766;
 }
 
 .pillar-inner {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 15rem;
+  align-items: flex-end;
+  padding: 5rem 2.5rem 0;
 }
 
-#one {
-  top: 0;
-  left: 0;
+.pillar-inner h4 {
+  font-size: 2rem;
+  font-weight: 700;
 }
 
-#two {
-  top: 0;
-  right: 0;
+.pillar::before {
+  position: relative;
+  top: 2.5rem;
+  left: 2.5rem;
+  font-family: 'Inconsolata', monospace;
+  font-size: 3rem;
+  font-weight: 400;
 }
 
-#three {
-  bottom: -10rem;
-  left: 0;
+#one::before {
+  content: '01';
 }
 
-#four {
-  right: 0;
-  bottom: -10rem;
+#two::before {
+  content: '02';
 }
 
-.pillar h4 {
-  font-size: 1.6rem;
-  text-align: center;
+#three::before {
+  content: '03';
+}
+
+#four::before {
+  content: '04';
 }
 
 @media screen and (min-width: 768px) {
-  .pillars {
-    height: 50rem;
-    width: 50rem;
-    margin-top: 20rem;
-  }
-  .pillars-inner {
-    height: 50rem;
-  }
-  .pillars h2 {
+  .info h2 {
     font-size: 4rem;
   }
   .pillar {
-    height: 30rem;
-    width: 30rem;
-    padding: 1.5rem;
+    min-height: 25rem;
   }
   .pillar-inner {
-    height: 30rem;
+    min-height: 25rem;
   }
-  .pillar h4 {
-    font-size: 2rem;
-  }
-  #one {
-    top: 0;
-  }
-  #two {
-    top: 0;
-    right: 0;
-  }
-  #three {
-    bottom: -20rem;
-  }
-  #four {
-    right: 0;
-    bottom: -20rem;
+  .pillar-inner h4 {
+    font-size: 2.2rem;
   }
 }
 
@@ -348,7 +307,7 @@ hr {
 }
 
 #biotech {
-  margin-top: 30rem;
+  margin-top: 5rem;
 }
 
 #biotech, #manu {
