@@ -434,6 +434,10 @@ ul {
   .service-title {
     font-size: 2rem;
   }
+  .service-desc {
+    font-size: 2rem;
+    line-height: 3.3rem;
+  }
 }
 
 #pathway {
@@ -464,7 +468,6 @@ ul {
   color: #ffffff;
   opacity: 1;
 }
-
 
 .mosaic-arrow {
   animation: shake 2s infinite;
