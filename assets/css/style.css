@@ -235,13 +235,14 @@ hr {
 }
 
 /* info */
-.info {
-  margin: 0 0 5rem;
-}
-
 .info h2 {
   font-size: 2.5rem;
   text-align: center;
+}
+
+.info p {
+  font-size: 1.8rem;
+  line-height: 3rem;
 }
 
 .pillar {
@@ -294,6 +295,10 @@ hr {
   .info h2 {
     font-size: 4rem;
   }
+  .info p {
+    font-size: 2rem;
+    line-height: 3.3rem;
+  }
   .pillar {
     min-height: 25rem;
   }
@@ -312,6 +317,10 @@ hr {
 
 #biotech {
   margin-top: 5rem;
+}
+
+#manu {
+  margin: 5rem 0;
 }
 
 #biotech, #manu {
@@ -379,13 +388,15 @@ hr {
 
 
 /* break */
-#break img {
-	width: 15rem;
+#break img, #service_break img {
+  display: block;
+	width: 25rem;
+  margin: auto auto;
 }
 
-@media screen and (min-width: 992px) {
-	#break img {
-		width: 25rem;
+@media screen and (min-width: 768px) {
+	#break img, #service_break img {
+		width: 35rem;
 	}
 }
 
@@ -563,21 +574,6 @@ ul {
   z-index: 0;
   margin-bottom: 7.5rem;
   background: #1d3766;
-}
-
-.profile:after {
-  position: absolute;
-  background: inherit;
-  content: '';
-  display: block;
-  height: 30px;
-  margin-top: -30px;
-  right:16px;
-  left: 15px;
-  -webkit-transform: skewY(-2.5deg);
-     -moz-transform: skewY(-2.5deg);
-          transform: skewY(-2.5deg);
-  transform-origin: 100%; 
 }
 
 .bio {

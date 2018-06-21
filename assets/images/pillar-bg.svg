@@ -4,16 +4,15 @@
 	 viewBox="0 0 350 250" style="enable-background:new 0 0 350 250;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#EEEEEE;}
-	.st1{opacity:0.8;}
-	.st2{fill:#B42F2F;}
-	.st3{opacity:0.8;fill:none;stroke:#1D3767;stroke-width:2;}
-	.st4{fill:none;stroke:#FFFFFF;}
+	.st1{fill:#B42F2F;}
+	.st2{fill:none;stroke:#1D3767;stroke-width:2;}
+	.st3{fill:none;stroke:#FFFFFF;}
 </style>
 <rect x="-14" y="-4" class="st0" width="382" height="260"/>
-<g class="st1">
-	<path class="st2" d="M418.9,163.2c-196.3-58.6-97.3-239.6-97.3-239.6l-78.2,47.5C235,152.9,401.7,167.3,404.5,171.9L418.9,163.2z"
+<g>
+	<path class="st1" d="M418.9,163.2c-196.3-58.6-97.3-239.6-97.3-239.6l-78.2,47.5C235,152.9,401.7,167.3,404.5,171.9L418.9,163.2z"
 		/>
 </g>
-<path class="st3" d="M226.6-31.5c13.2,199.9,193,204.4,196.6,209.3"/>
-<path class="st4" d="M436.4,166.4C216.5,118.2,304.6-88.7,304.6-88.7"/>
+<path class="st2" d="M226.6-31.5c13.2,199.9,193,204.4,196.6,209.3"/>
+<path class="st3" d="M436.4,166.4C216.5,118.2,304.6-88.7,304.6-88.7"/>
 </svg>
