@@ -280,6 +280,7 @@ hr {
 
 #one {
   top: 0;
+  left: 0;
 }
 
 #two {
@@ -289,6 +290,7 @@ hr {
 
 #three {
   bottom: -10rem;
+  left: 0;
 }
 
 #four {
