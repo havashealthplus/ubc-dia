@@ -24,6 +24,12 @@ $(window).on("scroll touchmove", function() {
 
   };
 
+  if ($(document).scrollTop() > $("#services").position().top) {
+
+    $('body').css('background', $("#services").attr("data-color"))
+
+  };
+
   if ($(document).scrollTop() > $("#team").position().top) {
 
     $('body').css('background', $("#team").attr("data-color"))
