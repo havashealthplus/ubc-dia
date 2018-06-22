@@ -73,7 +73,7 @@ hr {
 
 .header .logo {
   display: block;
-  width: 12.5rem;
+  width: 15rem;
   float: left;
   padding: 1rem 0;
   text-decoration: none;
@@ -95,7 +95,7 @@ hr {
   cursor: pointer;
   display: inline-block;
   float: right;
-  padding: 2.8rem 0;
+  padding: 3.1rem 0;
   position: relative;
   user-select: none;
 }
@@ -156,7 +156,7 @@ hr {
 
 @media (min-width: 768px) {
   .header .logo {
-    width: 17.5rem;
+    width: 20rem;
   }
   .header li {
     float: left;
