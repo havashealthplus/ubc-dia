@@ -390,7 +390,7 @@ hr {
 /* break */
 #break img, #service_break img {
   display: block;
-	width: 25rem;
+	width: 30rem;
   margin: auto auto;
 }
 
@@ -462,7 +462,6 @@ hr {
 
 /* services */
 #services {
-  margin: 5rem 0;
   background: url('../images/services-bg.svg');
   background-size: contain;
   background-repeat: no-repeat;
@@ -541,6 +540,23 @@ ul {
   background: #1d3766;
   color: #ffffff;
   opacity: 1;
+}
+
+.mosaic-arrow-mob {
+  display: block;
+}
+
+.mosaic-arrow {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .mosaic-arrow-mob {
+    display: none;
+  }
+  .mosaic-arrow {
+    display: block;
+  }
 }
 
 /*.mosaic-arrow {
