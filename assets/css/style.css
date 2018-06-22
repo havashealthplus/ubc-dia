@@ -347,6 +347,11 @@ hr {
   padding: 0 0 5rem;
 }
 
+.case h2  {
+  font-size: 2.5rem;
+  font-weight: 200; 
+}
+
 #biotech {
   margin-top: 5rem;
 }
@@ -379,11 +384,6 @@ hr {
 	margin: 5rem 0 2.5rem;
 }
 
-.case-intro h2 {
-	font-size: 2.5rem;
-	font-weight: 200;	
-}
-
 .case-desc p {
 	font-size: 1.8rem;
 	line-height: 3rem;
@@ -409,8 +409,8 @@ hr {
 	.case {
 		padding: 0 0 7rem;
 	}
-  .case-intro h2 {
-  	font-size: 4rem;
+  .case h2  {
+    font-size: 4rem;
   }
   .case-desc p, .case-service-list li {
   	font-size: 2rem;
