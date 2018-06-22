@@ -553,6 +553,7 @@ ul {
 }
 
 .mosaic-arrow-mob, .mosaic-mobile {
+  margin-bottom: 5rem;
   display: block;
 }
 
@@ -593,7 +594,7 @@ ul {
 
 /* team */
 #team {
-  margin: 7.5rem 0 4.5rem;
+  margin: 0 0 4.5rem;
 }
 
 #team hr {
@@ -650,6 +651,9 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
+  #team {
+    margin: 5rem 0 4.5rem;
+  }
   #team h2 {
     font-size: 4rem;
   }
