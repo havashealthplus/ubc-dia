@@ -47,11 +47,32 @@ hr {
 	border-left: none;
 }
 
+/* dia tag */
+.dia-tag {
+  position: absolute;
+  z-index: 1;
+  height: 5rem;
+  width: 100%;
+  top: 0;
+  background: #1d3766;
+  color: #ffffff;
+}
+
+.dia-tag a {
+  display: block;
+  font-size: 1.6rem;
+  line-height: 5rem;
+  text-align: center;
+}
+
+
 /* header */
 .header {
 	position: absolute;
   width: 100%;
   z-index: 1;
+  top: 5rem;
+  background: #ffffff;
 }
 
 .header ul {
@@ -192,7 +213,7 @@ hr {
 	display: flex;
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  height: 90vh;
 }
 
 .vert {
@@ -204,7 +225,7 @@ hr {
 }
 
 .vert img {
-  height: 30vh;
+  height: 25vh;
 }
 
 .intro-inner span {
