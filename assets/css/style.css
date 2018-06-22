@@ -306,6 +306,12 @@ hr {
     min-height: 25rem;
   }
   .pillar-inner h4 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .pillar-inner h4 {
     font-size: 2.2rem;
   }
 }
@@ -542,19 +548,19 @@ ul {
   opacity: 1;
 }
 
-.mosaic-arrow-mob {
+.mosaic-arrow-mob, .mosaic-mobile {
   display: block;
 }
 
-.mosaic-arrow {
+.mosaic-arrow, .mosaic-desktop {
   display: none;
 }
 
 @media screen and (min-width: 768px) {
-  .mosaic-arrow-mob {
+  .mosaic-arrow-mob, .mosaic-mobile {
     display: none;
   }
-  .mosaic-arrow {
+  .mosaic-arrow, .mosaic-desktop {
     display: block;
   }
 }
