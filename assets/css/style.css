@@ -134,7 +134,7 @@ hr {
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 300px;
+  max-height: 400px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -633,12 +633,30 @@ ul {
   color: inherit;
 }
 
+@media screen and (min-width: 576px) {
+  .bio {
+    min-height: 21rem;
+  }
+}
+
 @media screen and (min-width: 768px) {
   #team h2 {
     font-size: 4rem;
   }
   .bio {
     font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .bio {
+    min-height: 25rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .bio {
+    min-height: 22rem;
   }
 }
 
