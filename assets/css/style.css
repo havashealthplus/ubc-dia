@@ -293,6 +293,7 @@ hr {
 
 .pillar::before {
   position: relative;
+  display: block;
   top: 2.5rem;
   left: 2.5rem;
   font-family: 'Inconsolata', monospace;
